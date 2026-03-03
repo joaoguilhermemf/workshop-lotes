@@ -4,11 +4,11 @@
 (function() {
 
   var LOTES = [
-    { lote:0, preco:'R$ 19', url:'https://pay.hotmart.com/L104722969X?off=k9mv7hjm', inicio:new Date('2026-03-03T00:00:00'), fim:new Date('2026-03-08T00:00:00'), pct_inicio:5,  pct_fim:20  },
-    { lote:1, preco:'R$ 29', url:'https://pay.hotmart.com/L104722969X?off=0dl3xdqh', inicio:new Date('2026-03-08T00:00:00'), fim:new Date('2026-03-11T00:00:00'), pct_inicio:20, pct_fim:55  },
-    { lote:2, preco:'R$ 39', url:'https://pay.hotmart.com/L104722969X?off=r19mpn7v', inicio:new Date('2026-03-11T00:00:00'), fim:new Date('2026-03-14T00:00:00'), pct_inicio:55, pct_fim:80  },
-    { lote:3, preco:'R$ 49', url:'https://pay.hotmart.com/L104722969X?off=yyio4t2h', inicio:new Date('2026-03-14T00:00:00'), fim:new Date('2026-03-17T00:00:00'), pct_inicio:80, pct_fim:95  },
-    { lote:4, preco:'R$ 59', url:'https://pay.hotmart.com/L104722969X?off=tgjo3np3', inicio:new Date('2026-03-17T00:00:00'), fim:new Date('2026-03-20T23:59:00'), pct_inicio:95, pct_fim:106 }
+    { lote:0, preco:'R$ 19', url:'https://pay.hotmart.com/L104722969X?off=k9mv7hjm&checkoutMode=10', inicio:new Date('2026-03-03T00:00:00'), fim:new Date('2026-03-08T00:00:00'), pct_inicio:5,  pct_fim:20  },
+    { lote:1, preco:'R$ 29', url:'https://pay.hotmart.com/L104722969X?off=0dl3xdqh&checkoutMode=10', inicio:new Date('2026-03-08T00:00:00'), fim:new Date('2026-03-11T00:00:00'), pct_inicio:20, pct_fim:55  },
+    { lote:2, preco:'R$ 39', url:'https://pay.hotmart.com/L104722969X?off=r19mpn7v&checkoutMode=10', inicio:new Date('2026-03-11T00:00:00'), fim:new Date('2026-03-14T00:00:00'), pct_inicio:55, pct_fim:80  },
+    { lote:3, preco:'R$ 49', url:'https://pay.hotmart.com/L104722969X?off=yyio4t2h&checkoutMode=10', inicio:new Date('2026-03-14T00:00:00'), fim:new Date('2026-03-17T00:00:00'), pct_inicio:80, pct_fim:95  },
+    { lote:4, preco:'R$ 59', url:'https://pay.hotmart.com/L104722969X?off=tgjo3np3&checkoutMode=10', inicio:new Date('2026-03-17T00:00:00'), fim:new Date('2026-03-20T23:59:00'), pct_inicio:95, pct_fim:106 }
   ];
 
   function calcularLote() {
