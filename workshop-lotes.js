@@ -35,7 +35,7 @@
     var hf=document.getElementById('hero-progress-fill'),   hl=document.getElementById('hero-progress-label'),
         hc=document.getElementById('hero-cta-btn'),         hp=document.querySelector('#hero-price .hp-current');
     if(hf) hf.style.width=r.pct+'%'; if(hl) hl.innerHTML=lbl;
-    if(hc){hc.textContent=btnTxt;hc.href=r.url;} if(hp) hp.textContent='POR '+r.preco;
+    if(hc){hc.textContent=btnTxt;hc.href='#comprar';} if(hp) hp.textContent='POR '+r.preco;
 
     var tf=document.getElementById('ticket-progress-fill'), tl=document.getElementById('ticket-progress-label'),
         tc=document.getElementById('ticket-cta'),           ta=document.querySelector('#ticket-price-row .tp-amount'),
@@ -47,7 +47,7 @@
     var sf=document.getElementById('sticky-progress-fill'), sl=document.getElementById('sticky-progress-label'),
         sc=document.getElementById('sticky-cta'),           sp=document.querySelector('#sticky-price .sp-current');
     if(sf) sf.style.width=r.pct+'%'; if(sl) sl.innerHTML=lbl;
-    if(sc){sc.textContent=btnTxt;sc.href=r.url;} if(sp) sp.textContent=r.preco;
+    if(sc){sc.textContent=btnTxt;sc.href='#comprar';} if(sp) sp.textContent=r.preco;
   }
 
   atualizar();
